@@ -54,10 +54,12 @@ table {
 body {
     background-color: #fdf8f2;
     font-family: 'Roboto', sans-serif;
+    max-width: 100%;
 }
 
 #main {
     position: relative;
+    max-width: 100%;
 }
 
 footer {
@@ -82,9 +84,9 @@ p.citation {
 }
 
 .content {
-    position: absolute;
-    margin: 6% 34%;
-    width: auto;
+    width: max-content;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 .content div {
     float: left;
